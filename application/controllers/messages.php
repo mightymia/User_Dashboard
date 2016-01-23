@@ -15,6 +15,7 @@ class Messages extends CI_Controller
 			$comment = $this->message->show_comments($message_id);
 			$comments[$message_id] = $comment;
 		}
+		// $this->output->enable_profiler();
 		$this->load->view('user_info_page', array('user' => $user, 'list' => $list, 'comments' => $comments));
 	}
 

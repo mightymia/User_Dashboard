@@ -8,7 +8,6 @@
 </head>
 <body>
 	<nav class='navbar navbar-default'>
-			<a class="navbar-brand" href="/">Test App</a>
 			<ul class="nav navbar-nav navbar-left">
 	        	<li><a href="/">Home</a></li>
 	        </ul>
